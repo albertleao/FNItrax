@@ -1,5 +1,10 @@
+#logo {
+    height: 60px;
+    margin-top: -40px;
+}
+
 .titlecontainer {
-    margin-bottom: -16px;
+    margin-bottom: -20px;
 }
 
 #titlefont {
@@ -28,19 +33,34 @@
 
 #navigationlist {
     float: left;
-    margin-top: 20px;
-    font-size: 19px;
+    margin-top: 15px;
+    font-size: 18px;
     margin-left: 10px;
 }
 
-#navigationlist li{
-    display: inline;
-    margin-right: 10px;
-    padding: 5px;
-    background: lightblue;
+.navigationbutton {
+	background: #008ac8;
+	float: left;
+	border: 2px solid white;
+	color: white;
+	width: 130px;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 8px;
+	transform: skew(-20deg);
+    -ms-transform: skew(-20deg); /* IE 9 */
+    -webkit-transform: skew(-20deg); /* Safari and Chrome */
+    -o-transform: skew(-20deg); /* Opera */
+    -moz-transform: skew(-20deg); /* Firefox */
+    cursor: pointer;
+}
+
+.navigationbutton:hover {
+    background: #239dd2;
 }
 
 #contactus {
+    margin-top: 20px;
     margin-right: 10px;
     float: right;
 }
