@@ -1,0 +1,46 @@
+.titlecontainer {
+    margin-bottom: -16px;
+}
+
+#titlefont {
+    font-size: 65px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#titledescription {
+    font-style: italic;
+        margin-bottom: 0px;
+}
+
+#navigationwrapper {
+    background: gray;
+}
+
+#navigationbar {
+    height: 65px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 4px solid darkblue;
+    border-bottom: 4px solid darkblue;
+}
+
+#navigationlist {
+    float: left;
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+#navigationlist li{
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+    background: lightblue;
+}
+
+#contactus {
+    margin-right: 10px;
+    float: right;
+}
