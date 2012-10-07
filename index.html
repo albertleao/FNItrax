@@ -9,34 +9,7 @@
 <link rel="stylesheet" href="assets/css/master.css" />
 <link rel="stylesheet" href="assets/css/text.css" />
 <link rel="stylesheet" href="assets/css/reset.css" />
-<noscript>
-<link rel="stylesheet" href="assets/css/mobile.min.css" />
-</noscript>
-<script>
-// Edit to suit your needs.
-var ADAPT_CONFIG = {
-  // Where is your CSS?
-  path: 'assets/css/',
-
-  // false = Only run once, when page first loads.
-  // true = Change on window resize and page tilt.
-  dynamic: true,
-
-  // First range entry is the minimum.
-  // Last range entry is the maximum.
-  // Separate ranges by "to" keyword.
-  range: [
-    '0px    to 760px  = mobile.min.css',
-    '760px  to 980px  = 720.min.css',
-    '980px  to 1280px = 960.min.css',
-    '1280px to 1600px = 1200.min.css',
-    '1600px to 1940px = 1560.min.css',
-    '1940px to 2540px = 1920.min.css',
-    '2540px           = 2520.min.css'
-  ]
-};
-</script>
-<script src="assets/js/adapt.min.js"></script>
+<link rel="stylesheet" href="assets/css/960.min.css" />
 </head>
 <body>
 <div class="container_12">
@@ -64,10 +37,71 @@ var ADAPT_CONFIG = {
 		</div>
 	</div>
 	<div class="grid_12">
-	Key Features
-	Integrated Applications
-	Login
+	<div id="backgroundimagewrapper">
+		<img src="assets/images/waterbackground.jpg" id="backgroundimage">
+	</div>
 	
+	<div id="leftmaincontainer" class="middlecontent">
+		<div id="keyfeaturesheader" class="maincontentheader">
+			Key Features
+		</div>
+		<div class="maininformationcontainer">
+		Manage all your jobs from one site. <br /><br />
+		Many options for gathering field data, including a full featured FNI iPad version.<br /><br />
+		Measure performance with graphs, metrics, and benchmarking.<br /><br />
+		Reports, client portals, system generated alerts.
+		</div>
+	</div>
+	<div id="rightmaincontainer" class="middlecontent">
+		<div id="integratedapplicationsheader" class="maincontentheader">
+			Integrated Applications
+		</div>
+		<div class="maininformationcontainer">
+		Widnows <span>FNI Dri-Plan</span> for PCs, Laptops, and Windows based slates.<br /<br />
+		<span>Dri-Plan for iPad</span>, found in the App Store.<br /><br />
+		<span>Daily Reading Wizard</span> runs on any mobile device with internet connectivity.<br /<br >
+		<span>FNI Outlier</span>, S.F. cost calculator on any mobile device with internet connectivity
+		</div>
+	</div>
+	<div id="logincontainer" class="middlecontent">
+		<img src="assets/images/productsfnilogo.png" id="fnilogo">
+		<div id="logininputcontainer">
+			<table>
+				<tr>
+					<td>User name</td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" /></td>
+				</tr>
+				
+				<tr>
+					<td>Password:</td>
+				</tr>
+				
+				<tr>
+					<td><input type="password" /></td>
+				</tr>
+				
+				<tr>
+					<td><input type="checkbox">Remember password</td>
+				</tr>
+				
+				<tr>
+					<td><input type="submit" /></td>
+				</tr>				
+			</table>
+		</div>
+	</div>
+	
+	<img src="assets/images/readingwizardiphone.png" id="iphone" />
+	<img src="assets/images/monitorwdiagramtool.png" id="monitor" />
+	<img src="assets/images/outlieriphone.png" id="outlieriphone" />
+	<img src="assets/images/ipadimage.png" id="ipad" />
+	
+	<center>
+	Genesis Solutions Design LLC. US Patent Pending 2007 all rights reserved.
+	</center>
 	</div>
 </div>
 </body>
