@@ -1,0 +1,168 @@
+#logo {
+    height: 60px;
+    margin-top: -40px;
+}
+
+.titlecontainer {
+    margin-bottom: -20px;
+}
+
+#titlefont {
+    font-size: 65px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#titledescription {
+    font-style: italic;
+        margin-bottom: 0px;
+}
+
+#navigationwrapper {
+    background: #666;
+    position: relative;
+}
+
+#navigationbar {
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 4px solid #008ac8;
+    border-bottom: 4px solid #008ac8;
+}
+
+#navigationlist {
+    float: left;
+    margin-top: 6px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.navigationbutton {
+	background: #008ac8;
+	float: left;
+	border: 2px solid white;
+	color: white;
+	width: 130px;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 8px;
+	transform: skew(-20deg);
+    -ms-transform: skew(-20deg); /* IE 9 */
+    -webkit-transform: skew(-20deg); /* Safari and Chrome */
+    -o-transform: skew(-20deg); /* Opera */
+    -moz-transform: skew(-20deg); /* Firefox */
+    cursor: pointer;
+}
+
+.navigationbutton:hover {
+    background: #239dd2;
+}
+
+#contactus {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    color: white;
+}
+
+#backgroundimagewrapper {
+	margin-top: -30px;
+}
+
+#backgroundimagewrapper img {
+    width: 100%;
+}
+
+
+.middlecontent {
+    position: absolute;
+    z-index: 30;
+    top: 140px;
+}
+
+#leftmaincontainer {
+	
+}
+
+#keyfeaturesheader {
+	padding-top: 8px;
+	padding-left: 90px;
+}
+
+.maincontentheader {
+	width: 300px;
+	height: 50px;
+	color: white;
+	font-size: 25px;
+	background-image: url('../../assets/images/keyfeaturesimage.png');
+    background-repeat:no-repeat;
+}
+
+#rightmaincontainer {
+	margin-left: 350px;
+}
+
+#integratedapplicationsheader {
+    padding-top: 7px;
+	padding-left: 40px;
+}
+
+.maininformationcontainer {
+    margin-top: -8px;
+    height: 230px;
+	padding: 10px;
+	width: 318px;
+	background: white;
+	border: 2px solid #008ac8;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #aaa;
+}
+
+
+#logincontainer {
+margin-left: 750px;
+margin-top: 10px;
+}
+
+#fnilogo {
+    max-width: 150px;
+    padding-left: 5px;
+}
+
+#logininputcontainer {
+    border-left: 2px solid #008ac8;
+    padding-left: 5px;
+}
+
+#iphone {
+    position: absolute;
+    top: 415px;
+    margin-left: 275px;
+    z-index: 100;
+    max-width: 40px;
+}
+
+#monitor {
+    position: absolute;
+    top: 449px;
+    margin-left: 595px;
+    max-width: 190px;
+}
+
+#outlieriphone {
+    position: absolute;
+    top: 450px;
+    margin-left: 342px;
+    z-index: 100;
+    max-width: 40px;
+}
+
+#ipad{
+    position: absolute;
+    top: 480px;
+    margin-left: 405px;
+    z-index: 100;
+    max-width: 120px;
+}
