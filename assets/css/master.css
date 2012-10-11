@@ -1,27 +1,49 @@
 #logo {
     height: 60px;
-    margin-top: -40px;
+	margin-top: -45px;
 }
 
 .titlecontainer {
-    margin-bottom: -20px;
+    height: 60px;
 }
 
 #titlefont {
     font-size: 65px;
     font-style: italic;
-    font-weight: bold;
-    margin-bottom: 0px;
 }
 
 #titledescription {
     font-style: italic;
-        margin-bottom: 0px;
+}
+
+#userinformation {
+    float: right;
+    margin-right: 10px;
+}
+
+.userinformationtable{
+    font-size: 13px;
+    float: left;
+    margin-right: 50px;
+}
+
+.userinformationtable td{
+    background: #f9f9f9;
+    text-align: right;
+}
+
+.currentitem {
+    font-weight: bold;
+}
+
+#info {
+	float: right;
 }
 
 #navigationwrapper {
     background: #666;
     position: relative;
+    margin-top: 20px;
 }
 
 #navigationbar {
@@ -60,6 +82,48 @@
     background: #239dd2;
 }
 
+#navigationwrapperinner {
+    background: #666;
+    position: relative;
+    margin-top: 20px;
+}
+
+#navigationbarinner {
+    height: 34px;
+    margin-top: 5px;
+    border-top: 4px solid #008ac8;
+    border-bottom: 4px solid #008ac8;
+}
+
+#navigationlistinner {
+    float: left;
+    margin-top: 3px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.navigationbuttoninner {
+	background: #008ac8;
+    font-size: 15px;
+	float: left;
+	border: 2px solid white;
+	color: white;
+	width: 130px;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 8px;
+	transform: skew(-10deg);
+    -ms-transform: skew(-10deg); /* IE 9 */
+    -webkit-transform: skew(-10deg); /* Safari and Chrome */
+    -o-transform: skew(-10deg); /* Opera */
+    -moz-transform: skew(-10deg); /* Firefox */
+    cursor: pointer;
+}
+
+.navigationbutton:hover {
+    background: #239dd2;
+}
+
 #contactus {
     margin-top: 10px;
     margin-right: 10px;
@@ -79,7 +143,7 @@
 .middlecontent {
     position: absolute;
     z-index: 30;
-    top: 140px;
+    top: 143px;
 }
 
 #leftmaincontainer {
@@ -114,12 +178,26 @@
     height: 230px;
 	padding: 10px;
 	width: 318px;
+    line-height: 30px;
 	background: white;
 	border: 2px solid #008ac8;
 	border-radius: 10px;
 	box-shadow: 3px 3px 3px #aaa;
 }
 
+.bluetext {
+    color: #008ac8;
+    text-decoration: underline;
+}
+
+#compatible {
+    font-size: 12px;
+}
+
+.compatiblelogo {
+    margin-top: -10px;
+    max-height: 25px;
+}
 
 #logincontainer {
 margin-left: 750px;
@@ -134,6 +212,18 @@ margin-top: 10px;
 #logininputcontainer {
     border-left: 2px solid #008ac8;
     padding-left: 5px;
+}
+
+#loginbutton {
+	background: #008ac8;
+	border-radius: 3px;
+	padding: 2px;
+	border: 2px solid #008ac8;
+	cursor: pointer;;
+}
+
+#loginbutton:active {
+	background: white;
 }
 
 #iphone {
@@ -165,4 +255,103 @@ margin-top: 10px;
     margin-left: 405px;
     z-index: 100;
     max-width: 120px;
+}
+
+#subnavlistcontainer {
+    background: lightgray;
+    height: 25px;
+    border-bottom: 6px solid gray;
+    padding-left: 10px;
+}
+
+#subnavlist li{
+    display:inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 3px solid;
+    border-left: 3px solid;
+    cursor: pointer;
+}
+
+#subnavlist li:hover {
+    text-decoration: underline;
+
+}
+
+#selected{
+    background: gray;
+    font-weight: bold;
+}
+
+#tablenav {
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+#tablenavlist li {
+    display: inline;
+    background: #008ac8;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+}
+
+/*TABLES*/
+
+table.dataTable {
+	margin: 0 auto;
+	clear: both;
+	width: 100%;
+}
+
+#example_wrapper {
+    margin-top: 20px;
+}
+
+#example_length {
+    float: left;
+}
+
+.dataTables_filter {
+    float: right;
+}
+
+table.dataTable thead th {
+	padding: 3px 18px 3px 10px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	cursor: pointer;
+	*cursor: hand;
+}
+
+table.dataTable tfoot th {
+	padding: 3px 18px 3px 10px;
+	border-top: 1px solid black;
+	font-weight: bold;
+}
+
+table.dataTable td {
+	padding: 3px 10px;
+}
+
+table.dataTable td.center,
+table.dataTable td.dataTables_empty {
+	text-align: center;
+}
+
+table.dataTable tr.odd { background-color: #E2E4FF; }
+table.dataTable tr.even { background-color: white; }
+
+table.dataTable tr.odd td.sorting_1 { background-color: #D3D6FF; }
+table.dataTable tr.odd td.sorting_2 { background-color: #DADCFF; }
+table.dataTable tr.odd td.sorting_3 { background-color: #E0E2FF; }
+table.dataTable tr.even td.sorting_1 { background-color: #EAEBFF; }
+table.dataTable tr.even td.sorting_2 { background-color: #F2F3FF; }
+table.dataTable tr.even td.sorting_3 { background-color: #F9F9FF; }
+
+#example_previous,
+#example_next {
+    padding: 5px;
+    margin: 10px;
+    background: #D3D6FF;
 }
