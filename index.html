@@ -4,12 +4,14 @@
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-<meta name="description" content="Adapt.js serves CSS based on screen width." />
+<meta name="description" content=""/>
 <title>FNI Trax</title>
 <link rel="stylesheet" href="assets/css/master.css" />
 <link rel="stylesheet" href="assets/css/text.css" />
 <link rel="stylesheet" href="assets/css/reset.css" />
 <link rel="stylesheet" href="assets/css/960.min.css" />
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+<script type="text/javascript" src="assets/js/slides.jquery.js"></script>
 </head>
 <body>
 <div class="container_12">
@@ -45,11 +47,79 @@
 		<div id="keyfeaturesheader" class="maincontentheader">
 			Key Features
 		</div>
-		<div class="maininformationcontainer">
-		Manage all your jobs from one site. <br />
-		Multiple options for gathering field data, including a full featured FNI iPad version.<br />
-		Measure performance with graphs, metrics, and benchmarking.<br />
-		Reports, client portals, system generated alerts.
+		
+		 <script>
+            $(function(){
+                $("#slides").slides({
+					 play: 5000,
+					 pause: 2000,
+					 hoverPause: true,
+				});
+            });
+        </script>
+		
+		<div class="maininformationcontainer" id="slides">
+			<div class="slides_container">
+				<div>
+					<h3>FNI Trax Web Site</h3>
+					<ul class="slideshowlists">
+						<li>Receive and distribute new assignments</li>
+						<li>Manage jobs with notes, comments, workflow</li>
+						<li>Receive and update data from all FNI Apps</li>
+						<li>Reports by office, technician, carrier</li>
+						<li>Metrics of performance, job outcomes</li>
+						<li>Dashboard by job</li>
+					</ul>
+				</div>
+				
+				<div>
+					<h3>Reading Wizard</h3>
+					<ul class="slideshowlists">
+					<li>Use on any cell phone or mobile device</li>
+					<li>Imports job details from initial set up</li>
+					<li>Add Daily psychrometric readings</li>
+					<li>Add any additional photos needed</li>
+					<li>Add and remove equipment</li>
+					<li>Instant web site update with upload confirmation</li>
+					</ul>
+				</div>
+				
+				<div>
+					<h3>FNI Dri-Plan</h3>
+					<ul class="slideshowlists">
+					<li>Windows application run from the office or field</li>
+					<li>Quick draw rooms, and layers</li>
+					<li>Auto assign equipment based on industry standards</li>
+					<li>Manual override of equipment placements with comments</li>
+					<li>Water migration mapping</li>
+					<li>Track equipment by Mfg, model and capacity</li>
+					</ul>
+				</div>
+				
+				<div>
+					<h3>Dri-Plan for iPad</h3>
+					<ul class="slideshowlists">
+					<li>Exactly the same functionality as PC version</li>
+					<li>Free in Apple App Store</li>
+					<li>Multi photo uploads via Library</li>
+					<li>Calculations summary tab</li>
+					<li>Date, time stamp in the field</li>
+					<li>Customer signature capture</li>
+					</ul>
+				</div>
+				
+				<div>
+				<h3>FNI Outlier</h3>
+					<ul class="slideshowlists">
+					<li>Use on any cell phone or mobile device</li>
+					<li>Input job details, photos and notes</li>
+					<li>Returns S.F. cost for similar jobs</li>
+					<li>Email report to 3 addresses</li>
+					<li>Combine with Dri-Plan App for job benchmarking</li>
+					</ul>
+				</div>
+				
+			</div>
 		</div>
 	</div>
 	<div id="rightmaincontainer" class="middlecontent">
@@ -59,13 +129,8 @@
 		<div class="maininformationcontainer">
 		Windows <span class="bluetext">FNI Dri-Plan</span class="bluetext"> for PCs, Laptops, and Windows based slates.<br />
 		<span class="bluetext">Dri-Plan for iPad</span class="bluetext">, found in the App Store.<br />
-		<span class="bluetext">Daily Reading Wizard*</span class="bluetext"> runs on any mobile device with internet connectivity.<br />
-		<span class="bluetext">FNI Outlier*</span class="bluetext">, S.F. cost calculator on any mobile device with internet connectivity<br />
-		<span id="compatible">*Compatible With:&nbsp;<img class="compatiblelogo" src="assets/images/apple-logo.jpg" />&nbsp;
-													<img class="compatiblelogo" src="assets/images/windowslogo.jpg" />&nbsp;
-													<img class="compatiblelogo" src="assets/images/blackberry-logo.jpg" />&nbsp;
-													<img class="compatiblelogo" src="assets/images/droid-Logo.gif" />&nbsp;
-		</span>
+		<span class="bluetext">Daily Reading Wizard</span class="bluetext"> runs on any mobile device with internet connectivity.<br />
+		<span class="bluetext">FNI Outlier</span class="bluetext">, S.F. cost calculator on any mobile device with internet connectivity
 		</div>
 	</div>
 	<div id="logincontainer" class="middlecontent">
@@ -77,7 +142,7 @@
 				</tr>
 				
 				<tr>
-					<td><input type="text"  class="logininput" /></td>
+					<td><input type="text" class="logininput" /></td>
 				</tr>
 				
 				<tr>
@@ -85,19 +150,19 @@
 				</tr>
 				
 				<tr>
-					<td><input type="password" class="logininput"/></td>
+					<td><input type="password"  class="logininput" /></td>
 				</tr>
 				
 				<tr>
-					<td><input type="checkbox"/>Remember password</td>
+					<td><input type="checkbox" name="remember"><label for="remember">Remember password</label></td>
 				</tr>
 				
 				<tr>
 					<td><button id="loginbutton" onclick="location.href='innerpage.html' " >Login</button></td>
 				</tr>
-				
+
 				<tr>
-					<td style="font-size: 11px; text-align: right; color: blue;">Forgot your password?</td>
+					<td><span style="font-size: 11px; color: blue;">Forgot your password?</span></td>
 				</tr>
 			</table>
 		</div>
